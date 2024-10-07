@@ -1,0 +1,77 @@
+.todo-container {
+  display: flex;
+  justify-content: center; /* Aligns card to the left */
+  align-items: flex-start; /* Aligns card to the top */
+  padding: 20px; /* Adds some padding to the top and left */
+  height: 100vh;
+  background-color: #f0f0f0;
+  background: url('./bg.jpg') no-repeat center center/cover;
+}
+
+.todo-card {
+  background: rgb(243,243,247);
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  background-color: #e0e0e0;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.task-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.add-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
